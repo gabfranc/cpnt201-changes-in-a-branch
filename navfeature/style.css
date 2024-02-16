@@ -7,9 +7,32 @@
 body {
   display:flex;
   position: fixed;
-  background: cadetblue;
+  background-image: url("/Welcome\ to.png");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .logo img{
   height: 20vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-top: 8vh;
+  margin-left: 8vh;
+  list-style-type: none;
 }
