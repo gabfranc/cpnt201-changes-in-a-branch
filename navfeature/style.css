@@ -1,0 +1,15 @@
+* {
+  margin-top: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  position: fixed;
+  background: cadetblue;
+}
+
+.logo img{
+  height: 20vh;
+}
