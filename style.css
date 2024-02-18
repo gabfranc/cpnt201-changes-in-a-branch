@@ -21,8 +21,12 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD:navfeature/style.css
   background: cadetblue;
 >>>>>>> main
+=======
+  background: rgb(36, 118, 205);
+>>>>>>> main:style.css
 }
 
 .logo img{
@@ -30,8 +34,12 @@ body {
 }
 
 header {
+<<<<<<< HEAD:navfeature/style.css
 <<<<<<< HEAD
 =======
+=======
+  width: 90vh;
+>>>>>>> main:style.css
   justify-content: center;
 >>>>>>> main
   display: flex;
