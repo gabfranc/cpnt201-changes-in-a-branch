@@ -1,0 +1,44 @@
+* {
+  margin-top: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(36, 118, 205);
+}
+
+.logo img{
+  height: 20vh;
+}
+
+header {
+  width: 90vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  list-style-type: none;
+  margin-top: 9vh;
+  margin-left: 12vh;
+}
+
+
+footer {
+  display: block;
+  position:fixed;
+  margin-top: 95vh;
+}
