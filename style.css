@@ -11,7 +11,7 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background: cadetblue;
+  background: rgb(36, 118, 205);
 }
 
 .logo img{
@@ -19,6 +19,7 @@ body {
 }
 
 header {
+  width: 90vh;
   justify-content: center;
   display: flex;
   flex-direction: row;
